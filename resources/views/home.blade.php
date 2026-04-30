@@ -137,18 +137,20 @@
                             <div class="flip-front">
                                 <div>
                                     <div style="font-size:2rem"></div>
+                                    <div><img src="/images/icon-question.svg" alt="" style="width:32px;height:32px;"></div>
                                     What is StudyFlip?
                                 </div>
                             </div>
                             <div class="flip-back">
                                 <div>
                                     <div style="font-size:2rem"></div>
+                                    <div><img src="/images/icon-celebrate.svg" alt="" style="width:32px;height:32px;"></div>
                                     Your #1 flashcard study tool!
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <p class="mt-3 mb-0" style="font-size:.9rem; opacity:.8">
+                    <p class="mt-3 mb-0" style="font-size:.9rem; opacity:.8"><img src="/images/icon-sparkle.svg" alt="" style="width:14px;height:14px;margin-right:4px;vertical-align:middle;filter:brightness(0) invert(1);opacity:0.8;">
                         ✨ Flip cards to reveal answers
                     </p>
                 </div>
@@ -166,21 +168,21 @@
         <div class="row g-4">
             <div class="col-md-4">
                 <div class="feature-card">
-                    <div class="feature-icon" style="background:#ede9fe"></div>
+                    <div class="feature-icon" style="background:#ede9fe"><img src="/images/icon-decks.svg" alt="Decks" style="width:28px;height:28px;"></div>
                     <h5 class="fw-bold">Organize in Decks</h5>
                     <p class="text-muted mb-0">Group your flashcards into decks by subject, topic, or chapter. Stay organized.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="feature-card">
-                    <div class="feature-icon" style="background:#d1fae5"></div>
+                    <div class="feature-icon" style="background:#d1fae5"><img src="/images/icon-flip.svg" alt="Flip" style="width:28px;height:28px;"></div>
                     <h5 class="fw-bold">Interactive Flip Mode</h5>
                     <p class="text-muted mb-0">Tap any card to flip and reveal the answer. Study at your own pace.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="feature-card">
-                    <div class="feature-icon" style="background:#fef3c7"></div>
+                    <div class="feature-icon" style="background:#fef3c7"><img src="/images/icon-stats.svg" alt="Stats" style="width:28px;height:28px;"></div>
                     <h5 class="fw-bold">Track Progress</h5>
                     <p class="text-muted mb-0">See how many sessions you've completed and how many cards you've mastered.</p>
                 </div>

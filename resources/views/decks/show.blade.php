@@ -54,7 +54,7 @@
     </div>
 
     @if($cards->isEmpty())
-        <div class="text-center py-5 bg-white rounded-4 border">
+        <div class="text-center py-5 bg-white rounded-4 border"><div><img src="/images/icon-card.svg" alt="No cards" style="width:56px;height:56px;opacity:0.5;"></div>
             <div style="font-size:3.5rem"></div>
             <h6 class="fw-bold mt-2">No cards yet</h6>
             <p class="text-muted small">Start adding flashcards to this deck</p>

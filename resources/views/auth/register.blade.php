@@ -34,7 +34,7 @@
 <div class="auth-wrapper py-5">
     <div class="container">
         <div class="auth-card">
-            <div class="auth-logo">Study<span>Flip</span> </div>
+            <div class="auth-logo"><img src="/images/logo.svg" alt="StudyFlip Logo" style="width:24px;height:24px;margin-right:6px;vertical-align:middle;">Study<span>Flip</span> </div>
             <h4 class="text-center fw-bold mb-1">Create your account</h4>
             <p class="text-center text-muted small mb-4">Start studying smarter today</p>
 
@@ -52,7 +52,6 @@
             <form action="{{ route('register') }}" method="POST" novalidate>
                 @csrf
 
-                <!-- Name -->
                 <div class="mb-3">
                     <label class="form-label" for="name">Full Name</label>
                     <div class="input-group">
@@ -70,7 +69,6 @@
                     </div>
                 </div>
 
-                <!-- Email -->
                 <div class="mb-3">
                     <label class="form-label" for="email">Email Address</label>
                     <div class="input-group">
@@ -88,7 +86,6 @@
                     </div>
                 </div>
 
-                <!-- Password -->
                 <div class="mb-3">
                     <label class="form-label" for="password">Password</label>
                     <div class="input-group">
@@ -108,7 +105,6 @@
                     </div>
                 </div>
 
-                <!-- Confirm Password -->
                 <div class="mb-4">
                     <label class="form-label" for="password_confirmation">Confirm Password</label>
                     <div class="input-group">

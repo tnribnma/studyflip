@@ -32,7 +32,7 @@
 <div class="auth-wrapper py-5">
     <div class="container">
         <div class="auth-card">
-            <div class="auth-logo">Study<span>Flip</span></div>
+            <div class="auth-logo"><img src="/images/logo.svg" alt="StudyFlip Logo" style="width:24px;height:24px;margin-right:6px;vertical-align:middle;">Study<span>Flip</span></div>
             <h4 class="text-center fw-bold mb-1">Welcome back</h4>
             <p class="text-center text-muted small mb-4">Sign in to continue studying</p>
 

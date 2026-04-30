@@ -128,7 +128,7 @@
 
             <div class="study-controls">
                 <button class="btn-nav" id="prevBtn" disabled>← Prev</button>
-                <button class="btn-flip" id="flipBtn"> Flip</button>
+                <button class="btn-flip" id="flipBtn"> <img src="/images/icon-flip.svg" alt="Flip" style="width:18px;height:18px;margin-right:6px;vertical-align:middle;filter:brightness(0) invert(1);"> Flip</button>
                 <button class="btn-nav" id="nextBtn">Next →</button>
             </div>
 
@@ -140,7 +140,7 @@
         </div>
 
         <div id="finishArea" style="display:none">
-            <div class="finish-card">
+            <div class="finish-card"><img src="/images/icon-celebrate.svg" alt="Celebrate" style="width:64px;height:64px;"></div>
                 <div style="font-size:4rem"></div>
                 <h2 class="mt-2">You finished!</h2>
                 <p class="text-muted">You reviewed all <strong id="finishCount"></strong> cards in this deck.</p>

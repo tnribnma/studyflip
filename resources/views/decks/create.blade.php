@@ -13,7 +13,7 @@
     <div class="row justify-content-center">
         <div class="col-lg-6">
             <div class="card">
-                <div class="card-header">Deck Details</div>
+                <div class="card-header"><img src="/images/icon-decks.svg" alt="" style="width:20px;height:20px;margin-right:6px;vertical-align:middle;"> Deck Details</div>
                 <div class="card-body p-4">
 
                     @if($errors->any())

@@ -108,7 +108,7 @@
 
     @if($recentDecks->isEmpty())
         <div class="text-center py-5 bg-white rounded-4 border">
-            <div style="font-size:3rem">📭</div>
+            <div style="font-size:3rem"></div>
             <h6 class="fw-bold mt-2">No decks yet</h6>
             <p class="text-muted small">Create your first deck to get started!</p>
             <a href="{{ route('decks.create') }}" class="btn btn-primary">

@@ -73,7 +73,7 @@
     <div class="row g-3 mb-4">
         <div class="col-sm-4">
             <div class="stat-card">
-                <div class="stat-icon" style="background:#ede9fe"></div>
+                <div class="stat-icon" style="background:#ede9fe"><img src="/images/icon_deck.jpg" alt="" style="width:36px;height:36px;"></div>
                 <div>
                     <div class="stat-num">{{ $totalDecks }}</div>
                     <div class="stat-label">Total Decks</div>
@@ -82,7 +82,7 @@
         </div>
         <div class="col-sm-4">
             <div class="stat-card">
-                <div class="stat-icon" style="background:#d1fae5"></div>
+                <div class="stat-icon" style="background:#d1fae5"><img src="/images/icon_card.jpg" alt="" style="width:36px;height:36px;"></div>
                 <div>
                     <div class="stat-num">{{ $totalCards }}</div>
                     <div class="stat-label">Total Cards</div>
@@ -91,7 +91,7 @@
         </div>
         <div class="col-sm-4">
             <div class="stat-card">
-                <div class="stat-icon" style="background:#fef3c7"></div>
+                <div class="stat-icon" style="background:#fef3c7"><img src="/images/icon_study_session.jpg" alt="" style="width:36px;height:36px;"></div>
                 <div>
                     <div class="stat-num">{{ $totalSessions }}</div>
                     <div class="stat-label">Study Sessions</div>
